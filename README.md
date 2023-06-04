@@ -3,7 +3,8 @@
 # Introduction
 ## My Portfolio
 <br>
-Welcome to my portfolio! This repository showcases a collection of my professional and educational projects, providing a glimpse into the skills and expertise I have developed throughout my journey.
+Welcome to my portfolio! 
+This repository showcases a collection of my professional and educational projects, providing a glimpse into the skills and expertise I have developed throughout my journey.
 
 As a software developer, I have embarked on a transformative learning experience at Code Institute. This portfolio project holds a special place as it represents the culmination of my efforts during the course. It has been an invaluable opportunity to apply my knowledge, sharpen my abilities, and create a personalized representation of my work.
 
@@ -16,4 +17,4 @@ Thank you for visiting my portfolio repository, and I look forward to any feedba
 [Live Project Here](https://pedro-portfolio-website.netlify.app)
 
 
-<p align="center"><img src="./assets/images/readme/portfolio-home-page.jpg" alt="Pedro Cristo - Portfolio - Image"></p>
+<p align="center"><img src="./images/readme/portfolio-home-page.jpg" alt="Pedro Cristo - Portfolio - Image"></p>
