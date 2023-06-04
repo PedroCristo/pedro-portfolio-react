@@ -62,6 +62,13 @@ const workProjects = [
       "images/portfolio/logos/photopea-logo-png.png"
     ]
   },
+  {
+    id: 9,
+    projectName: "My Portfolio",
+    projectImg: "images/portfolio/work-projects/my-portfolio-image.jpg",
+    projectUrl: "https://pedro-portfolio-react.netlify.app/",
+    projectTechIcons: ["fab fa-html5", "fab fa-css3-alt", "fab fa-js" ,"fab fa-react"],
+  },
 ];
 
 const collegeProjects = [
