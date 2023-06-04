@@ -1,0 +1,399 @@
+/*******************************
+*                              *
+*       RESPONSIVE CSS         *
+*                              *
+*******************************/
+@media only screen and (min-width: 1380px) {
+
+  .scroll-up {
+    top: 850px !important;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .navbar .max-width {
+    max-width: none;
+  }
+
+  .services .services-content .card {
+    padding: 80px 25px;
+  }
+
+  .services .services-content .card .text {
+    margin: 45px 0 7px 0;
+  }
+}
+
+@media only screen and (max-width: 1300px) {
+  .home .max-width {
+    margin-left: 0px;
+  }
+
+  .services .services-content .services-content-box {
+    display: block;
+  }
+
+  .services .services-content .services-content-box p {
+    margin-bottom: 35px;
+  }
+
+}
+
+@media only screen and (max-width: 1104px) {
+  .about .about-content .left img {
+    height: 350px;
+    width: 350px;
+  }
+
+  .work .carousel .box {
+    margin-left: -1px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .max-width {
+    padding: 0 50px;
+  }
+}
+
+@media only screen and (max-width: 947px) {
+  .menu-btn {
+    display: block;
+    z-index: 999;
+  }
+
+  .menu-btn i.active:before {
+    content: '\f00d';
+  }
+
+  .navbar .menu {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: -100%;
+    top: 0;
+    background: #111;
+    text-align: center;
+    padding-top: 40px;
+    transition: all 0.5s ease;
+  }
+  .navbar .menu.active {
+    left: 0;
+  }
+  .navbar .menu li {
+    display: block;
+  }
+  .navbar .menu li a {
+    display: inline-block;
+    margin: 20px 0;
+    font-size: 25px;
+    z-index: 1;
+  }
+
+  .navbar ul a::after {
+    content: attr(data-after);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    color: rgba(240, 240, 255, 0.021);
+    font-size: 3rem;
+    letter-spacing: 15px;
+    z-index: -1;
+    color: black;
+  }
+
+  .navbar ul li:hover a::after {
+    transform: translate(-50%, -50%) scale(1);
+    letter-spacing: initial;
+    transition: 2s;
+  }
+
+  .navbar ul li .border {
+    border: 2px solid var(--white-color);
+    border-radius: 5px;
+    width: 150px;
+    padding: 10px 0;
+  }
+
+  .home .home-content .text-2 {
+    font-size: 70px;
+  }
+
+  .home .home-content .text-3 {
+    font-size: 35px;
+  }
+
+  .home .home-content a {
+    font-size: 23px;
+    padding: 10px 30px;
+  }
+  .max-width {
+    max-width: 930px;
+  }
+
+  .about .about-content .column {
+    width: 100%;
+  }
+
+  .about .about-content .left {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 60px;
+  }
+
+  .about .about-content .right {
+    flex: 100%;
+  }
+
+  .services .services-content .card {
+    width: calc(70% - 0px);
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .skills .skills-content .column,
+  .contact .contact-content .column {
+    width: 100%;
+    margin-bottom: 35px;
+  }
+
+  .skills .left-bars-box {
+    margin-top: -35px;
+  }
+
+  .services .services-content .services-content-box p {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 775px) { 
+
+  .work .carousel .card-nft img {
+    height: 197px;
+  }
+
+  .work .carousel .card-logo .logo-box {
+    bottom: 162px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .home {
+    background-position: 20%;
+  }
+
+  .home .home-content {
+    padding: 10px;
+    margin-top: 100px;
+  }
+
+  .services {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 690px) {
+  .max-width {
+    padding: 0 23px;
+  }
+
+  .home .home-content .text-2 {
+    font-size: 60px;
+  }
+
+  .home .home-content .text-3 {
+    font-size: 32px;
+  }
+
+  .home .home-content a {
+    font-size: 20px;
+  }
+
+  .skills .skills-img img {
+    width: 100%;
+  }
+  .services .services-content .card {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .home {
+    background-position: 70% 50% !important;
+  }
+
+  .home .social {
+    position: relative;
+    text-align: center;
+    left:0px;
+    bottom: 0px;
+    margin-top: 130px;
+  }
+
+  .services,
+  .work {
+    background-position: 40% 40% !important;
+  }
+
+  .home .home-content {
+    padding: 10px;
+  }
+
+  .home .home-content .text-2 {
+    font-size: 50px;
+  }
+
+  .home .home-content .text-3 {
+    font-size: 27px;
+  }
+
+  .about .about-content .right .text,
+  .skills .skills-content .left .text {
+    font-size: 19px;
+  }
+
+  .contact .right form .fields {
+    flex-direction: column;
+  }
+
+  .contact .right form .name,
+  .contact .right form .email {
+    margin: 0;
+  }
+
+  .scroll-up {
+    right: 15px;
+    bottom: 15px;
+    height: 38px;
+    width: 35px;
+    font-size: 23px;
+    line-height: 38px;
+  }
+
+  .content-text {
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 378px) {
+  .home .home-content .text-3 {
+    height: 50px;
+  }
+  .about .about-content .left img {
+    height: 300px;
+    width: 300px;
+  }
+
+  .services .services-content .services-content-box p {
+    font-size: 0.9rem;
+  }
+  
+  .about .text-small {
+    font-size: 1.1rem !important;
+  }
+
+  .contact .contact-content .info .sub-title {
+    font-size: 11px;
+  }
+
+  section .title::after {
+    font-size: 15px;
+  }
+
+  .work .carousel .card-nft img {
+    height: 200px;
+  }
+
+  .work .carousel .card-logo .logo-box {
+    bottom: 160px;
+  }
+
+}
+@media only screen and (max-width: 321px) {
+  .navbar .logo a {
+    font-size: 25px !important;
+}
+
+.navbar .menu li a {
+  margin: 14px 0;
+  font-size: 23px;
+}
+.home .home-content .text-2 {
+  font-size: 30px;
+}
+
+.home .home-content .text-3 {
+  font-size: 20px;
+}
+
+.btn {
+  padding: 5px 10px!important;
+  font-size: 15px !important;
+}
+
+.work .carousel .card-nft img {
+  height: 164px;
+}
+
+.work .carousel .card-logo .logo-box {
+  bottom: 250px;
+}
+
+section .title {
+  font-size: 28px;
+ }
+}
+
+@media only screen and (max-width: 300px) {
+  .about .about-content .left img {
+    height: 270px;
+    width: 270px;
+  }
+
+  .contact .contact-content .info .sub-title {
+    font-size: 9px;
+  }
+
+  .contact .contact-content .info .head {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 258px) {
+  .about .about-content .left img {
+    height: 250px;
+    width: 250px;
+  }
+
+  .contact .contact-content .info .sub-title {
+    font-size: 7px;
+  }
+
+  .contact .contact-content .info .head {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-height: 625px) {
+
+  .home .home-content {
+    padding: 25px;
+    margin-top: 20px;
+  }
+
+  .home .social {
+    position: relative;
+    bottom: -45px; 
+    left:35px;
+  }
+}
+
+@media only screen and (max-width:900px) and (max-height: 625px) {
+
+  .home .social {
+    position: relative;
+    bottom: -45px; 
+    left:35px;
+  }
+}
