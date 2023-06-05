@@ -16,8 +16,9 @@ function ContactFormCard({ ContactFormData }) {
           formSubject={item.formSubject}
           formMessage={item.formMessage}
           formButton={item.formButton}
-          formAlertMessage={item.formAlertMessage}
+          formRecaptchError={item.formRecaptchError}
           thanksPageUrl={item.thanksPageUrl}
+          lang={item.lang}
         />
       ))}
     </div>

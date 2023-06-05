@@ -991,15 +991,18 @@ i {
   resize: none;
 }
 
+.contact .right form .button {
+ margin-bottom: 15px;
+}
+
 .alert {
   text-align: center;
   padding: 10px;
-  background: #79c879;
+  background: #ca1717;
   border-radius: 6px;
   color: var(--white-color);
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 10px;
-  display: none;
 }
 
 /*  recaptcha */

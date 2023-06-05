@@ -28,6 +28,7 @@ const ContactDetailsDataPt = [
    const ContactFormDataPt = [
     {
       id: 1,
+      lang: "pt",
       formTitle: "Contacte-me",
       formName: "Nome",
       formEmail: "E-mail",
@@ -36,7 +37,7 @@ const ContactDetailsDataPt = [
       formSubject: "Assunto",
       formMessage: "Mensagem",
       formButton: "Enviar Mensagem",
-      formAlertMessage: "A sua mensagem foi enviada com sucesso.",
+      formRecaptchError: "Por favor, complete o Recaptcha!",
       thanksPageUrl: "https://pedro-portfolio-react.netlify.app/thanks-page-pt"
     },
   ];

@@ -28,6 +28,7 @@
    const ContactFormDataEn = [
     {
       id: 1,
+      lang: "en",
       formTitle: "Message me",
       formName: "Name",
       formEmail: "Email",
@@ -36,7 +37,7 @@
       formSubject: "Subject",
       formMessage: "Message",
       formButton: "Send Message",
-      formAlertMessage: "Your message has been successfully sent.",
+      formRecaptchError: "Please complete the Recaptcha!",
       thanksPageUrl: "https://pedro-portfolio-react.netlify.app/thanks-page-en"
     },
   ];
