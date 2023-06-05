@@ -89,7 +89,8 @@ function ContactForm({
           </button>
         </div>
         <ReCAPTCHA
-          sitekey={import.meta.env.VITE_REACT_RECAPTCHA_SITE_KEY}
+          // sitekey={import.meta.env.VITE_REACT_RECAPTCHA_SITE_KEY}
+          sitekey={VITE_REACT_RECAPTCHA_SITE_KEY}
           onChange={handleRecaptchaChange}
           hl={lang}
         />
