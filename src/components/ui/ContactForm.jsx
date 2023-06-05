@@ -23,7 +23,7 @@ function ContactForm( {
           onSubmit="return submitUserForm();"
         >
           <input type="hidden" name="_next" value={thanksPageUrl} />
-          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_captcha" value="true" />
           <input type="hidden" name="_subject" value="New Email!" />
           
   
