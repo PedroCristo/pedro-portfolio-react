@@ -38,7 +38,7 @@
       formMessage: "Message",
       formButton: "Send Message",
       formRecaptchError: "Please complete the Recaptcha!",
-      thanksPageUrl: "https://pedro-portfolio-react.netlify.app/thanks-page-en"
+      thanksPageUrl: "/thanks-page-en"
     },
   ];
 
