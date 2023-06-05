@@ -1005,34 +1005,6 @@ i {
   margin-bottom: 10px;
 }
 
-/*  recaptcha */
-.g-recaptcha {
-  display: block;
-  padding: 25px 0 !important;
-  margin-bottom: -135px;
-  position: relative;
-}
-
-.recaptcha-error {
-  margin-top: 15px;
-  margin-bottom: -15px;
-  text-align: center;
-  color: #111;
-}
-
-/* racaptch portuguese menssage */
-.recaptcha-box {
-  position: relative;
-}
-
-.robot_msg {
-  position: absolute;
-  top: 50px;
-  left: 51px;
-  background-color: rgb(249, 249, 249);
-  height: 45px;
-}
-
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
