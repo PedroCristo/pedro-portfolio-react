@@ -1,6 +1,7 @@
 import Navbar from "../ui/Navbar";
+import PropTypes from "prop-types";
 import navbarDataPt from "../../data/pt/navbar-pt";
-function NavbarPt() {
+function NavbarPt({ thanksPage }) {
   return (
     <>
       <Navbar 
@@ -8,9 +9,14 @@ function NavbarPt() {
       logoEnd={"fólio"}
       logoUrl={"/home-pt"}
       navbarData={navbarDataPt}
+      thanksPage={thanksPage}
       />
     </>
   );
+}
+
+NavbarPt.propTypes = {
+  thanksPage: PropTypes.string.isRequired,
 }
 
 export default NavbarPt;

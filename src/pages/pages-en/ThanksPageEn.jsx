@@ -5,8 +5,8 @@ import FooterEn from "../../components/en/FooterEn";
 function ThanksPageEn() {
   return (
     <div>
-      <NavbarEn />
-      <ThanksPage button={"Go Back"} buttonUrl={"/"} />
+      <NavbarEn thanksPage={true} />
+      <ThanksPage button={"Go Back"} buttonUrl={"/"}/>
       <FooterEn />
     </div>
   );

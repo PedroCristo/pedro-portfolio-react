@@ -1,6 +1,8 @@
 import Navbar from "../ui/Navbar";
+import PropTypes from "prop-types";
 import navbarDataEn from "../../data/en/navbar-en";
-function NavbarEn() {
+
+function NavbarEn({ thanksPage }) {
   return (
     <>
       <Navbar 
@@ -8,10 +10,15 @@ function NavbarEn() {
       logoEnd={"folio"}
       logoUrl={"/"}
       navbarData={navbarDataEn}
-      currentPage={"thanksPage"}
+      thanksPage={thanksPage}
       />
     </>
   );
 }
 
+NavbarEn.propTypes = {
+  thanksPage: PropTypes.string.isRequired,
+};
+
 export default NavbarEn;
+
