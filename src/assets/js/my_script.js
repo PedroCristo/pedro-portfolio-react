@@ -68,3 +68,6 @@ function ParalaxReady(){
 
 }
 
+export default ParalaxReady;
+
+
