@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import reCAPTCHA from "react-google-recaptcha"
+import ReCAPTCHA from "react-google-recaptcha";
 
 function ContactForm( {
     formTitle,
@@ -23,7 +23,7 @@ function ContactForm( {
           onSubmit="return submitUserForm();"
         >
           <input type="hidden" name="_next" value={thanksPageUrl} />
-          <input type="hidden" name="_captcha" value="true" />
+          <input type="hidden" name="_captcha" value="false" />
           <input type="hidden" name="_subject" value="New Email!" />
           
   
@@ -50,7 +50,7 @@ function ContactForm( {
           <div className="button">
             <button type="submit" className="btn">{formButton}</button>
           </div>
-          <reCAPTCHA />
+          <ReCAPTCHA  sitekey={"6LeD0oYbAAAAADhMeKCO4x9QGAF0BMKKqw_o4zXq"} />
   
           <div className="recaptcha-box">
             <div id="g-recaptcha-error" className="recaptcha-error"></div>
