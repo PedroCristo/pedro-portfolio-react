@@ -32,7 +32,7 @@ const ContactDetailsDataPt = [
       formTitle: "Contacte-me",
       formName: "Nome",
       formEmail: "E-mail",
-      formPhone: "Conatvto Telefónico",
+      formPhone: "Contacto Telefónico",
       formCompany: "Nome da Empresa",
       formSubject: "Assunto",
       formMessage: "Mensagem",
