@@ -152,16 +152,30 @@ i {
   margin-left: 13px;
 }
 
-.border {
-  border: 1px solid var(--interactive-color) !important;
+.link-lang-en {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/public/images/flags/gb-flag.png);
+
 }
 
-.border:hover {
+.link-lang-pt {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(/public/images/flags/pt-flag.webp);
+
+}
+
+.link-lang {
+  border: 1px solid var(--interactive-color) !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bolder;
+}
+
+.link-lang:hover {
   background-color: var(--white-color);
   color: var(--interactive-color) !important;
 }
 
-.border.active {
+.link-lang.active {
   border: 1px solid var(--white-color) !important;
 }
 
