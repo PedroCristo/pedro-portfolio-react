@@ -2,6 +2,7 @@ import PropTypes from "prop-types";
 import { useState } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
 
+
 function ContactForm({
   formTitle,
   formName,
@@ -88,7 +89,7 @@ function ContactForm({
           </button>
         </div>
         <ReCAPTCHA
-          sitekey={"6LeD0oYbAAAAADhMeKCO4x9QGAF0BMKKqw_o4zXq"}
+          sitekey={import.meta.env.VITE_REACT_RECAPTCHA_SITE_KEY}
           onChange={handleRecaptchaChange}
           hl={lang}
         />
@@ -107,7 +108,7 @@ ContactForm.propTypes = {
   formSubject: PropTypes.string.isRequired,
   formMessage: PropTypes.string.isRequired,
   formButton: PropTypes.string.isRequired,
-  formAlertMessage: PropTypes.string.isRequired,
+  formRecaptchError: PropTypes.string.isRequired,
   thanksPageUrl: PropTypes.string.isRequired,
   lang: PropTypes.string.isRequired,
 };
