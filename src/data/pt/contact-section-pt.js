@@ -38,7 +38,7 @@ const ContactDetailsDataPt = [
       formMessage: "Mensagem",
       formButton: "Enviar Mensagem",
       formRecaptchError: "Por favor, complete o Recaptcha!",
-      thanksPageUrl: "/thanks-page-pt"
+      thanksPageUrl: "https://pedro-portfolio-website.netlify.app/thanks-page-pt"
     },
   ];
 
