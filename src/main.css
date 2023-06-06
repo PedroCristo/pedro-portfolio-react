@@ -153,12 +153,12 @@ i {
 }
 
 .link-lang-en {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/public/images/flags/gb-flag.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/flags/gb-flag.png);
 
 }
 
 .link-lang-pt {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/public/images/flags/pt-flag.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/flags/pt-flag.jpg);
 
 }
 
