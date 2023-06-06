@@ -53,7 +53,7 @@ const workProjects = [
   {
     id: 8,
     projectName: "Zarco NFTs Design",
-    projectImg: "images/portfolio/work-projects/zarco.gif",
+    projectImg: "images/portfolio/work-projects/zarco-project.gif",
     projectUrl: "https://opensea.io/accounts/Zarco",
     projectTechIcons: [],
     projectTechImg: [

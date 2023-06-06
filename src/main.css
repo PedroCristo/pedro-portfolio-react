@@ -719,9 +719,6 @@ i {
   border: 5px solid var(--interactive-color);
   transition: all 0.3s ease;
 }
-.work .carousel .card-nft img {
-  height: 220px;
-}
 
 .work .carousel .card-logo .logo-box {
   width: 60px;
@@ -864,17 +861,17 @@ i {
 
 .live-demo-box {
   position: relative;
-  height: 0px;
+  width: 100%;
 }
 
 .live-demo {
   opacity: 0;
   position: absolute;
-  width: 94%;
+  width: 95%;
   margin: 0 auto;
   bottom: 5px;
   height: 50px;
-  left: -6px;
+  left: 0;
   right: 0;
   color: var(--white-color);
   background: rgba(29, 27, 27, 0.8);

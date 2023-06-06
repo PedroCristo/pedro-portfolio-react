@@ -8,7 +8,7 @@ function PortfolioWorkProjectsEn({ titleWork, classWork, workProjects, buttonWor
         <h2 className={classWork}>{titleWork}</h2>
         <div className="carousel owl-carousel">
           {workProjects.map((project) => (
-           <div className={`card ${project.id === 8 ? "card-logo card-nft" : null}`} key={project.id}>
+           <div className={`card ${project.id === 8 ? "card-logo" : null}`} key={project.id}>
               <a
                 href={project.projectUrl}
                 target="_blank"
