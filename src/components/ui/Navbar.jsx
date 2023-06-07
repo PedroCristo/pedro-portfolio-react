@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-function Navbar({ logoStart, logoUrl, logoEnd, navbarData, thanksPage }) {
+function Navbar({ logoStart, logoUrl, logoEnd, navbarData, thanksPage, errorPage404 }) {
   return (
     <nav className="navbar">
       <div className="max-width">
@@ -10,7 +10,7 @@ function Navbar({ logoStart, logoUrl, logoEnd, navbarData, thanksPage }) {
             <span>{logoEnd}</span>
           </a>
         </div>
-        {!thanksPage && (
+        {!thanksPage && !errorPage404 && (
           <ul className="menu">
             {navbarData.map((item) => (
               <li className={item.classnameLi} key={item.id}>
@@ -25,7 +25,7 @@ function Navbar({ logoStart, logoUrl, logoEnd, navbarData, thanksPage }) {
             ))}
           </ul>
         )}
-        {!thanksPage && (
+        {!thanksPage && !errorPage404 && (
           <div className="menu-btn">
             <i className="fas fa-bars"></i>
           </div>
@@ -41,6 +41,7 @@ Navbar.propTypes = {
   logoUrl: PropTypes.string.isRequired,
   navbarData: PropTypes.string.isRequired,
   thanksPage: PropTypes.string.isRequired,
+  errorPage404 : PropTypes.string.isRequired,
 };
 
 export default Navbar;
