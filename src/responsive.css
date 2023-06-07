@@ -257,10 +257,10 @@
   }
 
   .page404 .btn {
-    bottom: -40px !important;
     position: relative;
     font-size: 0.8rem;
     padding: 5px 10px;
+    margin-bottom: 100px;
    }
 }
 
@@ -333,6 +333,12 @@
     font-size: 1.2rem;
     margin-top: 25px;
   }
+  .page404 .btn {
+    position: relative;
+    font-size: 0.8rem;
+    padding: 5px 10px;
+    margin-bottom: 40px;
+   }
 }
 
 @media only screen and (max-width: 378px) {
@@ -458,4 +464,10 @@
   .work .carousel .card-logo .logo-box {
     bottom: 175px;
   }
+}
+
+@media only screen and (max-height:340px) {
+  .page404 .btn {
+   bottom: -150px !important;
+   }
 }
