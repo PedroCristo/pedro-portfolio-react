@@ -46,7 +46,7 @@ const navbarDataPt = [
         name: "EN",
         dataAfter: "Português",
         classnameLi: "home-section",
-        classnameA: "link-lang link-lang-en",
+        classnameA: "link-lang link-lang-en set-bg-image",
         linkUrl: "/"
     },
 ]

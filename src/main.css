@@ -1,4 +1,3 @@
-
 /*******************************
 *                              *
 *        GOOGLE FONTS          *
@@ -28,6 +27,10 @@
   text-decoration: none;
 }
 
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -43,7 +46,7 @@ html {
 
 ::-webkit-scrollbar-thumb {
   transition: 0.3s;
-  background:  var(--grey-color);
+  background: var(--grey-color);
   border-radius: 25px;
   cursor: pointer;
 }
@@ -62,14 +65,12 @@ section {
   margin: auto;
 }
 
-.about,
-.services,
-.skills,
-.work,
-.contact,
-footer {
-  font-family: 'Poppins', sans-serif;
+.set-bg-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 
 .about .about-content,
 .services .services-content,
@@ -91,7 +92,7 @@ section .title {
   font-family: 'Ubuntu', sans-serif;
 }
 
-.content-text{
+.content-text {
   text-align: justify;
 }
 
@@ -164,9 +165,6 @@ i {
 
 .link-lang {
   border: 1px solid var(--interactive-color) !important;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   font-weight: bolder;
 }
 
@@ -254,16 +252,14 @@ i {
   border: 1px solid var(--white-color);
 }
 
-.navbar .menu-btn 
-.fa-bars,
+.navbar .menu-btn .fa-bars,
 .fa-angle-up {
   font-size: 35px !important;
 }
 
-.navbar .menu-btn 
-.fa-bars,
+.navbar .menu-btn .fa-bars,
 .fa-angle-up,
-.fa-arrow-left{
+.fa-arrow-left {
   animation: change-color 5s infinite;
 }
 
@@ -399,6 +395,7 @@ i {
 .home .social i:hover {
   color: var(--white-color);
 }
+
 /*******************************
 *                              *
 *        ABOUT SECTION         *
@@ -407,6 +404,7 @@ i {
 .about .title::after {
   content: 'who i am';
 }
+
 .about .title-pt::after {
   content: 'Quem eu sou';
 }
@@ -644,7 +642,7 @@ i {
 }
 
 .skills-content .html::before {
-  width:70%;
+  width: 70%;
 }
 
 .skills-content .css::before {
@@ -654,6 +652,7 @@ i {
 .skills-content .js::before {
   width: 60%;
 }
+
 .skills-content .react::before {
   width: 55%;
 }
@@ -844,11 +843,11 @@ i {
 }
 
 .fa-bootstrap {
-  color:#8712F7; 
+  color: #8712F7;
 }
 
 .fa-react {
-  color: #00D8FF ;
+  color: #00D8FF;
 }
 
 .work .box-icons .icon-img {
@@ -1003,7 +1002,7 @@ i {
 }
 
 .contact .right form .button {
- margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .alert {
@@ -1077,4 +1076,56 @@ input:hover {
   color: var(--white-color)f;
   margin-right: 8px;
   font-size: 20px;
+}
+
+/*******************************
+*                              *
+*           404 PAGE           *
+*                              *
+*******************************/
+.page404 {
+  background-image: url(../images/error/404.png);
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--white-color);
+  padding: 25px;
+}
+
+.page404 .content-box  {
+  padding: 0 25px;
+}
+
+.page404 .content-box .title {
+  font-size: 15rem;
+  color: red;
+  text-align: center;
+}
+
+.page404 .content-box .content-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.page404 .content-box .content-item img {
+  margin-right: 25px;
+  width: 60px;
+}
+
+.page404 .content-box .content-item h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.page404 .btn-box {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+}
+
+.page404 .btn {
+  margin-right: 25px;
 }

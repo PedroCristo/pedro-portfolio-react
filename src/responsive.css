@@ -54,6 +54,11 @@
   .max-width {
     padding: 0 50px;
   }
+
+  .page404 {
+    background-image: url(../images/error/404.png);
+
+  }
 }
 
 @media only screen and (max-width: 947px) {
@@ -77,12 +82,15 @@
     padding-top: 40px;
     transition: all 0.5s ease;
   }
+
   .navbar .menu.active {
     left: 0;
   }
+
   .navbar .menu li {
     display: block;
   }
+
   .navbar .menu li a {
     display: inline-block;
     margin: 20px 0;
@@ -128,6 +136,7 @@
     font-size: 23px;
     padding: 10px 30px;
   }
+
   .max-width {
     max-width: 930px;
   }
@@ -167,7 +176,20 @@
     font-size: 1.2rem;
   }
 }
-@media only screen and (max-width: 775px) { 
+
+@media only screen and (max-width: 850px) {
+  .page404 .content-box .title {
+    font-size: 8rem;
+  }
+
+  .page404 .content-box .content-item h2 {
+    font-size: 2rem;
+  }
+
+}
+
+
+@media only screen and (max-width: 775px) {
 
   .work .carousel .card-logo .logo-box {
     bottom: 135px;
@@ -186,6 +208,15 @@
 
   .services {
     display: none;
+  }
+
+  .page404 .btn {
+   bottom: -30px !important;
+   position: relative;
+   font-size: 0.8rem;
+  }
+  .page404 .content-box .title {
+    font-size: 6rem;
   }
 }
 
@@ -209,9 +240,28 @@
   .skills .skills-img img {
     width: 100%;
   }
+
   .services .services-content .card {
     width: 100%;
   }
+}
+
+@media only screen and (max-width:600px) {
+
+  .page404 .content-box .content-item h2 {
+    font-size: 1.2rem;
+  }
+
+  .page404 .content-box .content-item img {
+    width: 40px;
+  }
+
+  .page404 .btn {
+    bottom: -40px !important;
+    position: relative;
+    font-size: 0.8rem;
+    padding: 5px 10px;
+   }
 }
 
 @media only screen and (max-width: 500px) {
@@ -222,7 +272,7 @@
   .home .social {
     position: relative;
     text-align: center;
-    left:0px;
+    left: 0px;
     bottom: 0px;
     margin-top: 130px;
   }
@@ -270,12 +320,26 @@
   .content-text {
     text-align: left;
   }
+
+  .page404 .content-box .title {
+    font-size: 6rem;
+  }
+
+  .page404 .content-box .content-item {
+    flex-direction: column;
+  }
+
+  .page404 .content-box .content-item h2 {
+    font-size: 1.2rem;
+    margin-top: 25px;
+  }
 }
 
 @media only screen and (max-width: 378px) {
   .home .home-content .text-3 {
     height: 50px;
   }
+
   .about .about-content .left img {
     height: 300px;
     width: 300px;
@@ -284,7 +348,7 @@
   .services .services-content .services-content-box p {
     font-size: 0.9rem;
   }
-  
+
   .about .text-small {
     font-size: 1.1rem !important;
   }
@@ -301,36 +365,41 @@
     bottom: 160px;
   }
 
+  .page404 .content-box .content-item h2 {
+    font-size: 1rem;
+  }
 }
+
 @media only screen and (max-width: 321px) {
   .navbar .logo a {
     font-size: 25px !important;
-}
+  }
 
-.navbar .menu li a {
-  margin: 14px 0;
-  font-size: 23px;
-}
-.home .home-content .text-2 {
-  font-size: 30px;
-}
+  .navbar .menu li a {
+    margin: 14px 0;
+    font-size: 23px;
+  }
 
-.home .home-content .text-3 {
-  font-size: 20px;
-}
+  .home .home-content .text-2 {
+    font-size: 30px;
+  }
 
-.btn {
-  padding: 5px 10px!important;
-  font-size: 15px !important;
-}
+  .home .home-content .text-3 {
+    font-size: 20px;
+  }
 
-.work .carousel .card-logo .logo-box {
-  bottom: 250px;
-}
+  .btn {
+    padding: 5px 10px !important;
+    font-size: 15px !important;
+  }
 
-section .title {
-  font-size: 28px;
- }
+  .work .carousel .card-logo .logo-box {
+    bottom: 250px;
+  }
+
+  section .title {
+    font-size: 28px;
+  }
 }
 
 @media only screen and (max-width: 300px) {
@@ -372,16 +441,16 @@ section .title {
 
   .home .social {
     position: relative;
-    bottom: -45px; 
-    left:35px;
+    bottom: -45px;
+    left: 35px;
   }
 }
 
 @media only screen and (max-width:900px) and (max-height: 625px) {
   .home .social {
     position: relative;
-    bottom: -45px; 
-    left:35px;
+    bottom: -45px;
+    left: 35px;
   }
 }
 

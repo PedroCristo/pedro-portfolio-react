@@ -46,9 +46,9 @@ const navbarDataEn = [
     {
         id: 7,
         name: "PT",
-        dataAfter: "Português",
+        dataAfter: "English",
         classnameLi: "home-section",
-        classnameA: "link-lang link-lang-pt",
+        classnameA: "link-lang link-lang-pt set-bg-image",
         linkUrl: "/home-pt"
     },
 ]
