@@ -29,7 +29,7 @@ import PropTypes from 'prop-types';
 
 
 TypedTextHome.propTypes = {
-  langPt: PropTypes.string.isRequired,
+  langPt: PropTypes.bool,
 };
 
 

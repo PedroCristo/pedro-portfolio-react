@@ -54,7 +54,7 @@ AboutSection.propTypes = {
   content: PropTypes.string.isRequired,
   button: PropTypes.string.isRequired,
   linkUrl: PropTypes.string.isRequired,
-  langPt: PropTypes.string.isRequired,
+  langPt: PropTypes.bool,
 };
 
 export default AboutSection;

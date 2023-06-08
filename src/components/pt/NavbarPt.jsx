@@ -16,7 +16,7 @@ function NavbarPt({ thanksPage }) {
 }
 
 NavbarPt.propTypes = {
-  thanksPage: PropTypes.string.isRequired,
+  thanksPage: PropTypes.bool.isRequired,
 }
 
 export default NavbarPt;

@@ -30,7 +30,7 @@ function ServicesSection({ classname, title, ServicesData }) {
 ServicesSection.propTypes = {
     classname: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
-    ServicesData: PropTypes.string.isRequired,
+    ServicesData: PropTypes.array.isRequired,
 
 }
 

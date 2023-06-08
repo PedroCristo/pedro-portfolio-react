@@ -26,6 +26,6 @@ function ContactFormCard({ ContactFormData }) {
 }
 
 ContactFormCard.propTypes = {
-    ContactFormData: PropTypes.string.isRequired,
+    ContactFormData: PropTypes.array.isRequired,
 }
 export default ContactFormCard;

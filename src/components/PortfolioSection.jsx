@@ -70,11 +70,11 @@ PortfolioSection.propTypes = {
   titleWork: PropTypes.string.isRequired,
   classWork: PropTypes.string.isRequired,
   classCollege: PropTypes.string.isRequired,
-  workProjects: PropTypes.string.isRequired,
-  collegeProjects: PropTypes.string.isRequired,
+  workProjects: PropTypes.array.isRequired,
+  collegeProjects: PropTypes.array.isRequired,
   buttonWork: PropTypes.string.isRequired,
   buttonCollege: PropTypes.string.isRequired,
-  langPt: PropTypes.string.isRequired,
+  langPt: PropTypes.bool,
   watchLiveButton: PropTypes.string.isRequired,
 };
 

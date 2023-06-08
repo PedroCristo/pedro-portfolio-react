@@ -25,7 +25,7 @@ function ContactSectionPt(props) {
 }
 
 ContactSectionPt.propTypes = {
-  class: PropTypes.number.isRequired,
+  class: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
 };
 

@@ -28,7 +28,7 @@ function TypedTextAbout({ langPt }) {
   }
   
   TypedTextAbout.propTypes = {
-    langPt: PropTypes.string.isRequired,
+    langPt: PropTypes.bool,
   };
 
   export default TypedTextAbout;

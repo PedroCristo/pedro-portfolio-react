@@ -81,7 +81,7 @@ function ContactDetails({
 }
 
 ContactDetails.propTypes = {
-  id: PropTypes.number.isRequired,
+  id: PropTypes.number,
   detailTitle: PropTypes.string.isRequired,
   detailMessage1: PropTypes.string.isRequired,
   detailMessage2: PropTypes.string.isRequired,

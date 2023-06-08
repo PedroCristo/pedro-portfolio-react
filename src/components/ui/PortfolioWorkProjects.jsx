@@ -19,14 +19,14 @@ function PortfolioWorkProjectsEn({ titleWork, classWork, workProjects, buttonWor
                   <h2 className="text">{langPt === true && project.id === 1 ? `Restaurante Nortada` : `${project.projectName}`}</h2>
                   <div className="box-icons">
                     {project.projectTechIcons.map((icon) => (
-                      <i key={icon.id} className={icon}></i>
+                      <i key={icon.id} className={icon.iconClass}></i>
                     ))}
                     {project.projectTechImg &&
                       project.projectTechImg.length > 0 &&
                       project.projectTechImg.map((iconImg) => (
                         <img
                           key={iconImg.id}
-                          src={iconImg}
+                          src={iconImg.imgSrc}
                           className="icon-img"
                           alt="Project Tech Image"
                         />
@@ -47,9 +47,9 @@ function PortfolioWorkProjectsEn({ titleWork, classWork, workProjects, buttonWor
 PortfolioWorkProjectsEn.propTypes = {
   titleWork: PropTypes.string.isRequired,
   classWork: PropTypes.string.isRequired,
-  workProjects: PropTypes.string.isRequired,
+  workProjects: PropTypes.array.isRequired,
   buttonWork: PropTypes.string.isRequired,
-  langPt: PropTypes.string.isRequired,
+  langPt: PropTypes.bool,
 }
 
 export default PortfolioWorkProjectsEn;

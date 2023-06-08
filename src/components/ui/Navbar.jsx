@@ -39,9 +39,9 @@ Navbar.propTypes = {
   logoStart: PropTypes.string.isRequired,
   logoEnd: PropTypes.string.isRequired,
   logoUrl: PropTypes.string.isRequired,
-  navbarData: PropTypes.string.isRequired,
-  thanksPage: PropTypes.string.isRequired,
-  errorPage404 : PropTypes.string.isRequired,
+  navbarData: PropTypes.array.isRequired,
+  thanksPage: PropTypes.bool,
+  errorPage404 : PropTypes.bool,
 };
 
 export default Navbar;

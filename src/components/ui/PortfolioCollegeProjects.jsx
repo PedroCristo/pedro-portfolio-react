@@ -23,14 +23,14 @@ function PortfolioCollegesProjetsEn({ titleCollege, classCollege, collegeProject
                   <h2 className="text">{project.projectName}</h2>
                   <div className="box-icons">
                     {project.projectTechIcons.map((icon) => (
-                      <i key={icon.id} className={icon}></i>
+                      <i key={icon.id} className={icon.iconClass}></i>
                     ))}
                     {project.projectTechImg &&
                       project.projectTechImg.length > 0 &&
                       project.projectTechImg.map((iconImg) => (
                         <img
                           key={iconImg.id}
-                          src={iconImg}
+                          src={iconImg.imgSrc}
                           className="icon-img"
                           alt="Project Tech Image"
                         />
@@ -62,7 +62,7 @@ function PortfolioCollegesProjetsEn({ titleCollege, classCollege, collegeProject
 PortfolioCollegesProjetsEn.propTypes = {
   titleCollege: PropTypes.string.isRequired,
   classCollege: PropTypes.string.isRequired,
-  collegeProjects: PropTypes.string.isRequired,
+  collegeProjects: PropTypes.array.isRequired,
   buttonCollege: PropTypes.string.isRequired,
   watchLiveButton: PropTypes.string.isRequired,
 };

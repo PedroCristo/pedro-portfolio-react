@@ -35,6 +35,6 @@ function ContactDetailsCard( {ContactDetailsData}) {
 }
 
 ContactDetailsCard.propTypes = {
-    ContactDetailsData: PropTypes.string.isRequired,
+    ContactDetailsData: PropTypes.array.isRequired,
 }
 export default ContactDetailsCard;

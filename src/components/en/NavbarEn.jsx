@@ -16,8 +16,8 @@ function NavbarEn({ thanksPage, errorPage404 }) {
 }
 
 NavbarEn.propTypes = {
-  thanksPage: PropTypes.string.isRequired,
-  errorPage404: PropTypes.string.isRequired,
+  thanksPage: PropTypes.bool,
+  errorPage404: PropTypes.bool,
 };
 
 export default NavbarEn;
