@@ -328,6 +328,9 @@
   .page404 .content-box .content-item {
     flex-direction: column;
   }
+  .page404 .content-box .content-item img {
+    margin-right: 0;
+  }
 
   .page404 .content-box .content-item h2 {
     font-size: 1.2rem;
