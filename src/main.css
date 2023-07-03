@@ -35,19 +35,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.main {
-  scroll-snap-type: y mandatory;
-  scroll-behavior: smooth;
-  overflow-y: auto;
-  scrollbar-width: none;
-  height: 100vh;
-}
-
-section {
-  height: 100vh;
-  scroll-snap-align: center;
-}
-
 /* CUSTOM SCROLL BAR */
 ::-webkit-scrollbar {
   width: 10px;
@@ -1107,7 +1094,7 @@ input:hover {
   padding: 25px;
 }
 
-.page404 .content-box {
+.page404 .content-box  {
   padding: 0 25px;
 }
 

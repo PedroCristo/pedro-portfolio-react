@@ -97,7 +97,7 @@ const workProjects = [
     id: 9,
     projectName: "My Portfolio",
     projectImg: "images/portfolio/work-projects/my-portfolio-image.jpg",
-    projectUrl: "https://pedro-portfolio-website.netlify.app/",
+    projectUrl: "/",
     projectTechIcons: [
       { id: 28, iconClass: "fab fa-html5" },
       { id: 29, iconClass: "fab fa-css3-alt" },
