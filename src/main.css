@@ -71,7 +71,6 @@ section {
   background-size: cover;
 }
 
-
 .about .about-content,
 .services .services-content,
 .skills .skills-content,
@@ -175,6 +174,10 @@ i {
 
 .link-lang.active {
   border: 1px solid var(--white-color) !important;
+}
+
+.interactive-color-bg {
+  background-color: var(--interactive-color);
 }
 
 /*******************************

@@ -44,7 +44,7 @@ function PortfolioWorkProjectsEn({
                         />
                       ))}
                   </div>
-                  {project.id === 9 ?  <h5 className="btn-portfolio">Live Version</h5> : (
+                  {project.id === 9 ?<h5 className="btn-portfolio interactive-color-bg">{project.id === 9 && langPt === true? "Versão Live" :  "Live Version"}</h5> : (
                     <h5 className="btn-portfolio">{buttonWork}</h5>
                   )}
                 </div>
