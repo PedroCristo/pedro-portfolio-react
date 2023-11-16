@@ -18,7 +18,7 @@ function AboutSection({
         <h2 className={titleClass}>{message1}</h2>
         <div className="about-content">
           <div className="column left">
-            <img src="images/my_profile_img_2.png" alt="ABOUT IMG" />
+            <img src="images/profile-image-2.jpg" alt="ABOUT IMG" />
           </div>
           <div className="column right">
             <h2 className="text text-small">

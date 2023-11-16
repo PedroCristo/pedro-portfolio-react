@@ -19,7 +19,7 @@ function SkillsSection( {title, titleClass, message1, message2, content, button}
           </div>
           <div className="column right">
             <div className="skills-img">
-              <img src="images/my_profile_img_1.jpg" alt="PROFILE IMAGE" />
+              <img src="images/skils-image.webp" alt="PROFILE IMAGE" />
             </div>
           </div>
           <SkillsProgressBar />
