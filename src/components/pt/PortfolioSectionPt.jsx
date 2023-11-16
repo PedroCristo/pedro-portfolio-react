@@ -9,7 +9,7 @@ function PortfolioSectionPt() {
     <div>
       <PortfolioSection
         titleWork={"Alguns dos meus projectos"}
-        titleCollege={"Projectos de Cusro"}
+        titleCollege={"Projectos do Curso"}
         classCollege={"title title-pt"}
         classWork={"title title-pt"}
         workProjects={workProjects}
