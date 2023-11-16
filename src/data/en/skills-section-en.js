@@ -19,12 +19,14 @@ const skillsDataEn = [
 const skillsArray = [
     { id: 1, name: "HTML", percentage: "70%", progressSkill: "html" },
     { id: 2, name: "CSS", percentage: "65%", progressSkill: "css" },
-    { id: 3, name: "JavaScript", percentage: "60%", progressSkill: "js" },
+    { id: 3, name: "Bootstrap", percentage: "60%", progressSkill: "bootstrap" },
+    { id: 4, name: "JavaScript", percentage: "60%", progressSkill: "js" },
     { id: 5, name: "React", percentage: "55%", progressSkill: "react" },
-    { id: 6, name: "WordPress", percentage: "60%", progressSkill: "wordpress" },
-    { id: 7, name: "Github", percentage: "65%", progressSkill: "github" },
-    { id: 8, name: "Canvas", percentage: "70%", progressSkill: "canvas" },
-    { id: 9, name: "Pixlr", percentage: "75%", progressSkill: "pixlr" }
+    { id: 6, name: "jQuery", percentage: "50%", progressSkill: "jquery" },
+    { id: 7, name: "WordPress", percentage: "60%", progressSkill: "wordpress" },
+    { id: 8, name: "Github", percentage: "65%", progressSkill: "github" },
+    { id: 9, name: "Canvas", percentage: "70%", progressSkill: "canvas" },
+    { id: 10, name: "Pixlr", percentage: "75%", progressSkill: "pixlr" }
 ];
 export { skillsArray }
 export default skillsDataEn;
