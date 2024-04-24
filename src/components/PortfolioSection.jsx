@@ -22,7 +22,7 @@ function PortfolioSection({
       $(this).owlCarousel({
         margin: 20,
         loop: true,
-        autoplay: false,
+        autoplay: true,
         autoplayTimeout: 3000,
         autoplayHoverPause: true,
         responsive: {

@@ -28,7 +28,7 @@ function PortfolioWorkProjectsEn({
                     {langPt === true && project.id === 1
                       ? `Restaurante Nortada`
                       : `${project.projectName}`}
-                 </h2>
+                  </h2>
                   <div className="box-icons">
                     {project.projectTechImg &&
                       project.projectTechImg.length > 0 &&
@@ -43,8 +43,14 @@ function PortfolioWorkProjectsEn({
                     {project.projectTechIcons.map((icon) => (
                       <i key={icon.id} className={icon.iconClass}></i>
                     ))}
-                  </div> 
-                  {project.id === 9 ?<h5 className="btn-portfolio interactive-color-bg">{project.id === 9 && langPt === true? "Versão Live" :  "Live Version"}</h5> : (
+                  </div>
+                  {project.id === 9 ? (
+                    <h5 className="btn-portfolio interactive-color-bg">
+                      {project.id === 9 && langPt === true
+                        ? "Versão Live"
+                        : "Live Version"}
+                    </h5>
+                  ) : (
                     <h5 className="btn-portfolio">{buttonWork}</h5>
                   )}
                 </div>
