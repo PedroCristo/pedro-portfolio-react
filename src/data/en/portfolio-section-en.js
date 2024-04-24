@@ -1,6 +1,6 @@
 const workProjects = [
   {
-    id: 1,
+    id: 0,
     projectName: "Restaurant Nortada",
     projectImg: "images/portfolio/work-projects/nortada.png",
     projectUrl: "https://restaurantenortada.com/",
@@ -11,7 +11,7 @@ const workProjects = [
     ],
   },
   {
-    id: 2,
+    id: 1,
     projectName: "E-commerce Flask Template",
     projectImg: "images/portfolio/work-projects/ecomerce-flask-template.png",
     projectUrl: "https://ecommerce-flask-project.herokuapp.com/",
@@ -26,7 +26,7 @@ const workProjects = [
     ],
   },
   {
-    id: 3,
+    id: 2,
     projectName: "University Template",
     projectImg: "images/portfolio/work-projects/university-website-template-last.png",
     projectUrl: "https://university-website-tempalte.netlify.app/",
@@ -37,7 +37,7 @@ const workProjects = [
     ],
   },
   {
-    id: 4,
+    id: 3,
     projectName: "Hair Studio Template",
     projectImg: "images/portfolio/work-projects/hair-studio-tempalte-last.png",
     projectUrl: "https://hair-studio-template.netlify.app/",
@@ -48,7 +48,7 @@ const workProjects = [
     ],
   },
   {
-    id: 5,
+    id: 4,
     projectName: "Digital Agency Template",
     projectImg: "images/portfolio/work-projects/digital-agency-website-template-last.png",
     projectUrl: "https://digital-agency-template.netlify.app/",
@@ -59,7 +59,7 @@ const workProjects = [
     ],
   },
   {
-    id: 6,
+    id: 5,
     projectName: "Personal Trainer Template",
     projectImg: "images/portfolio/work-projects/personal-trainer-template.png",
     projectUrl: "https://personal-trainer-template.netlify.app/",
@@ -71,7 +71,7 @@ const workProjects = [
     ],
   },
   {
-    id: 7,
+    id: 6,
     projectName: "E-commerce Template",
     projectImg: "images/portfolio/work-projects/e-commerce-last.png",
     projectUrl: "https://e-commerce-template-2.netlify.app",
@@ -79,6 +79,21 @@ const workProjects = [
       { id: 22, iconClass: "fab fa-html5" },
       { id: 23, iconClass: "fab fa-css3-alt" },
       { id: 24, iconClass: "fab fa-js" },
+    ],
+  },
+  {
+    id: 7,
+    projectName: "Coffee Haven",
+    projectImg: "images/portfolio/work-projects/coffee-haven-template.png",
+    projectUrl: "https://coffe-shop-react-teamplate.netlify.app/",
+    projectTechIcons: [
+      { id: 28, iconClass: "fab fa-html5" },
+      { id: 29, iconClass: "fab fa-css3-alt" },
+      { id: 30, iconClass: "fab fa-js" },
+      { id: 31, iconClass: "fab fa-react" },
+    ],
+    projectTechImg: [
+      { id: 32, imgSrc: "images/portfolio/logos/google-sheets-logo.png" },
     ],
   },
   {

@@ -18,7 +18,7 @@ function PortfolioWorkProjectsEn({
               key={project.id}
             >
               <a
-                href={project.id === 9 ? "/" : project.projectUrl}
+                href={project.projectName === 9 ? "/" : project.projectUrl}
                 target={project.id === 9 ? "_self" : "_blank"}
                 rel="noopener noreferrer"
               >
@@ -28,11 +28,8 @@ function PortfolioWorkProjectsEn({
                     {langPt === true && project.id === 1
                       ? `Restaurante Nortada`
                       : `${project.projectName}`}
-                  </h2>
+                 </h2>
                   <div className="box-icons">
-                    {project.projectTechIcons.map((icon) => (
-                      <i key={icon.id} className={icon.iconClass}></i>
-                    ))}
                     {project.projectTechImg &&
                       project.projectTechImg.length > 0 &&
                       project.projectTechImg.map((iconImg) => (
@@ -43,7 +40,10 @@ function PortfolioWorkProjectsEn({
                           alt="Project Tech Image"
                         />
                       ))}
-                  </div>
+                    {project.projectTechIcons.map((icon) => (
+                      <i key={icon.id} className={icon.iconClass}></i>
+                    ))}
+                  </div> 
                   {project.id === 9 ?<h5 className="btn-portfolio interactive-color-bg">{project.id === 9 && langPt === true? "Versão Live" :  "Live Version"}</h5> : (
                     <h5 className="btn-portfolio">{buttonWork}</h5>
                   )}
