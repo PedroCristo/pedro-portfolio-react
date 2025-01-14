@@ -49,13 +49,14 @@ const workProjects = [
   },
   {
     id: 4,
-    projectName: "Digital Agency Template",
-    projectImg: "images/portfolio/work-projects/digital-agency-website-template-last.png",
-    projectUrl: "https://digital-agency-template.netlify.app/",
+    projectName: "Esquadria Website",
+    projectImg: "images/portfolio/work-projects/esquadria_cover.png",
+    projectUrl: "https://esquadria.netlify.app/",
     projectTechIcons: [
       { id: 15, iconClass: "fab fa-html5" },
       { id: 16, iconClass: "fab fa-css3-alt" },
       { id: 17, iconClass: "fab fa-js" },
+      { id: 31, iconClass: "fab fa-react" },
     ],
   },
   {
