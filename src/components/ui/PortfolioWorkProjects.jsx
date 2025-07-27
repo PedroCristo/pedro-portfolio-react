@@ -54,13 +54,13 @@ function PortfolioWorkProjectsEn({
                     <h5 className="btn-portfolio">{buttonWork}</h5>
                   )}
                 </div>
-                {project.id === 8 ? (
+                {/* {project.id === 8 ? (
                   <img
                     src="images/portfolio/logos/zarco_logo.png"
                     alt="LOGO IMG"
                     className="logo-box"
                   />
-                ) : null}
+                ) : null} */}
               </a>
             </div>
           ))}

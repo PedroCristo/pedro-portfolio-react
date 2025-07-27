@@ -18,7 +18,7 @@ const aboutDataPt = [
         esse projeto, tive a oprtunidade de começar a aprender React framework, o que foi uma experiência 
         profissional fantástica.`,
         button: "Curriculum - CV",
-        linkUrl: "https://drive.google.com/file/d/1bcm4dOdUFNghnyIvNKLIC3d5ry6oHmOt/view?usp=sharing"
+        linkUrl: "https://drive.google.com/file/d/1etf6C6idsy7GnpkNxgCFfT8EvgrVBKUV/view?usp=sharing"
     },
 ]
 

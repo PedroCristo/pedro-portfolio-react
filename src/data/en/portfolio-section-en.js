@@ -98,18 +98,6 @@ const workProjects = [
     ],
   },
   {
-    id: 8,
-    projectName: "Zarco NFTs Design",
-    projectImg: "images/portfolio/work-projects/zarco-project.gif",
-    projectUrl: "https://opensea.io/accounts/Zarco",
-    projectTechIcons: [],
-    projectTechImg: [
-      { id: 25, imgSrc: "images/portfolio/logos/canvas.jpg" },
-      { id: 26, imgSrc: "images/portfolio/logos/pixlr-logo.jpg" },
-      { id: 27, imgSrc: "images/portfolio/logos/photopea-logo-png.png" },
-    ],
-  },
-  {
     id: 9,
     projectName: "My Portfolio",
     projectImg: "images/portfolio/work-projects/my-portfolio-image.jpg",
@@ -160,10 +148,10 @@ const collegeProjects = [
   },
   {
     id: 4,
-    projectName: "Tasty Blog",
-    projectImg: "images/portfolio/college/tasty-blog.png",
-    projectUrl: "https://tasty-blog-portfolio-project-4.herokuapp.com/",
-    projectRepoUrl: "https://github.com/PedroCristo/portfolio_project_4",
+    projectName: "The World of Flavors",
+    projectImg: "images/portfolio/college/wold-of-flavors.png",
+    projectUrl: "https://harvard-cs50w-proj-4-world-of-flavours-1.onrender.com/home_page/",
+    projectRepoUrl: "https://github.com/PedroCristo/harvard_cs50w_proj_4_world_of_flavours",
     projectTechIcons: [
       { id: 38, iconClass: "fab fa-html5" },
       { id: 39, iconClass: "fab fa-css3-alt" },

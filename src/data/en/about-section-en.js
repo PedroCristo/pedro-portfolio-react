@@ -19,7 +19,7 @@ const aboutDataEn = [
         professional team. This experience has been amazing and during this project, I started to 
         learn the React framework which has been a fantastic professional experience.`,
         button: "Resume - CV",
-        linkUrl: "https://drive.google.com/file/d/1bcm4dOdUFNghnyIvNKLIC3d5ry6oHmOt/view?usp=sharing"
+        linkUrl: "https://drive.google.com/file/d/1etf6C6idsy7GnpkNxgCFfT8EvgrVBKUV/view?usp=sharing"
     },
 ]
 
