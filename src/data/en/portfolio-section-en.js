@@ -148,7 +148,7 @@ const collegeProjects = [
   },
   {
     id: 4,
-    projectName: "The World of Flavors",
+    projectName: "World of Flavors",
     projectImg: "images/portfolio/college/wold-of-flavors.png",
     projectUrl: "https://harvard-cs50w-proj-4-world-of-flavours-1.onrender.com/home_page/",
     projectRepoUrl: "https://github.com/PedroCristo/harvard_cs50w_proj_4_world_of_flavours",
