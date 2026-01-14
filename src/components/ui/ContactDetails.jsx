@@ -21,6 +21,7 @@ function ContactDetails({
   detailGithubUrl,
   detail6,
   detailPhone,
+  detailPhonePt,
   detailPhoneIcon,
 }) {
   return (
@@ -50,15 +51,20 @@ function ContactDetails({
             <p className="sub-title">{detailEmail}</p>
           </div>
         </div>
-        <a href="tel: +353899596466">
-          <div className="row row-contact">
-            <i className={detailPhoneIcon}></i>
-            <div className="info">
-              <p className="head">{detail6}</p>
+        <div className="row row-contact mt-3">
+          <i className={detailPhoneIcon}></i>
+          <div className="info">
+            <p className="head">{detail6}</p>
+            <a href="tel:+353899596466">
+              {" "}
               <p className="sub-title">{detailPhone}</p>
-            </div>
+            </a>
+            <a href="tel:+351964486091">
+              <p className="sub-title">{detailPhonePt}</p>
+            </a>
           </div>
-        </a>
+        </div>
+
         <a href={detailLinkdinUrl} target="_blank" rel="noopener noreferrer">
           <div className="row">
             <i className={detailLinkdinIcon}></i>

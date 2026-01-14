@@ -12,17 +12,17 @@ const workProjects = [
   },
   {
     id: 1,
-    projectName: "E-commerce Flask Template",
-    projectImg: "images/portfolio/work-projects/ecomerce-flask-template.png",
-    projectUrl: "https://ecommerce-flask-project.herokuapp.com/",
+    projectName: "Quinta do Cota - Ecommerce",
+    projectImg: "images/portfolio/work-projects/quinta-do-cota.png",
+    projectUrl: "https://www.quintadocota.com/en/",
     projectTechIcons: [
       { id: 4, iconClass: "fab fa-html5" },
       { id: 5, iconClass: "fab fa-css3-alt" },
-      { id: 6, iconClass: "fab fa-js" },
+      { id: 6, iconClass: "fab fa-react" }
     ],
     projectTechImg: [
       { id: 7, imgSrc: "images/portfolio/logos/python-logo.png" },
-      { id: 8, imgSrc: "images/portfolio/logos/flask-logo.png" },
+      { id: 8, imgSrc: "images/portfolio/logos/django-logo.png" },
     ],
   },
   {
@@ -98,7 +98,7 @@ const workProjects = [
     ],
   },
   {
-    id: 9,
+    id: 8,
     projectName: "My Portfolio",
     projectImg: "images/portfolio/work-projects/my-portfolio-image.jpg",
     projectUrl: "",
@@ -136,17 +136,6 @@ const collegeProjects = [
     ],
   },
   {
-    id: 3,
-    projectName: "Hangman",
-    projectImg: "images/portfolio/college/hangman.png",
-    projectUrl: "https://portfolio-project-3.herokuapp.com/",
-    projectRepoUrl: "https://github.com/PedroCristo/portfolio_project_3",
-    projectTechIcons: [],
-    projectTechImg: [
-      { id: 37, imgSrc: "images/portfolio/logos/python-logo.png" },
-    ],
-  },
-  {
     id: 4,
     projectName: "World of Flavors",
     projectImg: "images/portfolio/college/wold-of-flavors.png",
@@ -160,22 +149,6 @@ const collegeProjects = [
     projectTechImg: [
       { id: 41, imgSrc: "images/portfolio/logos/python-logo.png" },
       { id: 42, imgSrc: "images/portfolio/logos/django-logo.png" },
-    ],
-  },
-  {
-    id: 5,
-    projectName: "Watches & Clocks",
-    projectImg: "images/portfolio/college/watches_clocks_ready.png",
-    projectUrl: "https://watches-and-clocks-portfolio-5.herokuapp.com/",
-    projectRepoUrl: "https://github.com/PedroCristo/portfolio_project_5",
-    projectTechIcons: [
-      { id: 43, iconClass: "fab fa-html5" },
-      { id: 44, iconClass: "fab fa-css3-alt" },
-      { id: 45, iconClass: "fab fa-js" },
-    ],
-    projectTechImg: [
-      { id: 46, imgSrc: "images/portfolio/logos/python-logo.png" },
-      { id: 47, imgSrc: "images/portfolio/logos/django-logo.png" },
     ],
   },
 ];

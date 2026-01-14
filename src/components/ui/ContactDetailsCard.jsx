@@ -27,6 +27,7 @@ function ContactDetailsCard( {ContactDetailsData}) {
           detailGithubUrl={item.detailGithubUrl}
           detail6={item.detail6}
           detailPhone={item.detailPhone}
+          detailPhonePt={item.detailPhonePt}
           detailPhoneIcon={item.detailPhoneIcon}
         />
       ))}

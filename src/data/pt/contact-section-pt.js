@@ -19,8 +19,9 @@ const ContactDetailsDataPt = [
       detail5: "Github",
       detailGithubIcon: "fab fa-github",
       detailGithubUrl: "https://github.com/PedroCristo",
-      detail6: "Telefone(Irlanda)",
-      detailPhone: "+ 353 899596466",
+      detail6: "Telefone",
+      detailPhone: "(Irlanda)+ 353 899596466",
+      detailPhonePt: "(Portugal)+ 351 964486091",
       detailPhoneIcon: "fas fa-phone",
     },
   ];
