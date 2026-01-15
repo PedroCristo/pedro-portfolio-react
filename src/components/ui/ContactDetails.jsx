@@ -53,20 +53,20 @@ function ContactDetails({
         </div>
         <div className="row row-contact mt-3">
           <i className={detailPhoneIcon}></i>
-          <div className="info">
+          <div className="info info-margin-5px">
             <p className="head">{detail6}</p>
             <a href="tel:+353899596466">
               {" "}
-              <p className="sub-title">{detailPhone}</p>
+              <p className="sub-title phone-badge">{detailPhone}</p>
             </a>
             <a href="tel:+351964486091">
-              <p className="sub-title">{detailPhonePt}</p>
+              <p className="sub-title phone-badge">{detailPhonePt}</p>
             </a>
           </div>
         </div>
 
         <a href={detailLinkdinUrl} target="_blank" rel="noopener noreferrer">
-          <div className="row">
+          <div className="row info-margin-5px">
             <i className={detailLinkdinIcon}></i>
             <div className="info">
               <p className="head">{detail4}</p>

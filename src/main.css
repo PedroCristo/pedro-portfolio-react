@@ -18,6 +18,7 @@
   --grey-color: rgb(175, 159, 159);
   --black-color: rgb(32, 32, 32);
   --white-color: rgb(255, 255, 255);
+  --blue-color: rgb(143, 208, 228);
 }
 
 * {
@@ -942,6 +943,17 @@ i {
 
 .contact .contact-content .left .icons {
   margin: 10px 0;
+}
+
+.contact .contact-content .left .info-margin-5px {
+  margin-top: 25px;
+
+}
+.contact .contact-content .left .phone-badge {
+  margin-bottom: 7px;
+  background-color: var(--blue-color);
+  padding: 5px 12px;
+  border-radius: 5px;
 }
 
 .contact .contact-content .row {

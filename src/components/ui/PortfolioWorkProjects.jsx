@@ -25,7 +25,7 @@ function PortfolioWorkProjectsEn({
                 <div className="box">
                   <img src={project.projectImg} alt={project.projectName} />
                   <h2 className="text">
-                    {langPt === true && project.id === 1
+                    {langPt === true && project.id === 0
                       ? `Restaurante Nortada`
                       : `${project.projectName}`}
                   </h2>

@@ -18,7 +18,7 @@ const workProjects = [
     projectTechIcons: [
       { id: 4, iconClass: "fab fa-html5" },
       { id: 5, iconClass: "fab fa-css3-alt" },
-      { id: 6, iconClass: "fab fa-react" }
+      { id: 6, iconClass: "fab fa-react" },
     ],
     projectTechImg: [
       { id: 7, imgSrc: "images/portfolio/logos/python-logo.png" },
