@@ -99,14 +99,30 @@ const workProjects = [
   },
   {
     id: 8,
-    projectName: "My Portfolio",
-    projectImg: "images/portfolio/work-projects/my-portfolio-image.jpg",
-    projectUrl: "",
+    projectName: "Blast of History",
+    projectImg: "images/portfolio/work-projects/blast-history.png",
+    projectUrl: "https://blastofhistory.online/",
     projectTechIcons: [
       { id: 28, iconClass: "fab fa-html5" },
       { id: 29, iconClass: "fab fa-css3-alt" },
       { id: 30, iconClass: "fab fa-js" },
       { id: 31, iconClass: "fab fa-react" },
+    ],
+    projectTechImg: [
+      { id: 32, imgSrc: "images/portfolio/logos/firabase-logo.png" },
+
+    ],
+  },
+  {
+    id: 9,
+    projectName: "My Portfolio",
+    projectImg: "images/portfolio/work-projects/my-portfolio-image.jpg",
+    projectUrl: "",
+    projectTechIcons: [
+      { id: 33, iconClass: "fab fa-html5" },
+      { id: 34, iconClass: "fab fa-css3-alt" },
+      { id: 35, iconClass: "fab fa-js" },
+      { id: 36, iconClass: "fab fa-react" },
     ],
   },
 ];
